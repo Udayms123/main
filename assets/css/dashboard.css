@@ -1,0 +1,992 @@
+#one{
+    border:1px solid green;
+    padding:auto;
+    background:green;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#one:hover{
+    background:white;
+    color:green;
+    border:3px solid green;
+    font-size:24px;
+    font-weight:800;
+}
+#two{
+    border:1px solid orange;
+    padding:auto;
+    background:orange;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#two:hover{
+    background:white;
+    color:orange;
+    border:3px solid orange;
+    font-size:24px;
+    font-weight:800;
+}
+#three{
+    border:1px solid #59DFED;
+    border-radius:15px;
+    padding:auto;
+    background:#008999;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#three:hover{
+    background:white;
+    color:#008999;
+    border:3px solid;
+    font-size:24px;
+    font-weight:800;
+}
+#four{
+    border:1px solid red;
+    border-radius:15px;
+    padding:auto;
+    background:red;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#four:hover{
+    background:white;
+    color:red;
+    border:3px solid red;
+    font-size:24px;
+    font-weight:800;
+}
+#five{
+    border:1px solid grey;
+    border-radius:15px;
+    padding:auto;
+    margin-right:-20px;
+    background:grey;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#five:hover{
+    background:white;
+    color:grey;
+    border:3px solid grey;
+    font-size:24px;
+    font-weight:800;
+}
+#six{
+    border:1px solid #336699;
+    border-radius:15px;
+    padding:auto;
+    margin-right:-20px;
+    background:#336699;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#six:hover{
+    background:white;
+    color:#336699;
+    border:3px solid #336699;
+    font-size:24px;
+    font-weight:800;
+}
+#seven{
+    border:1px solid #A78B25;
+    border-radius:15px;
+    padding:auto;
+    margin-right:-20px;
+    background:#A78B25;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#seven:hover{
+    background:white;
+    color:#A78B25;
+    border:3px solid #A78B25;
+    font-size:24px;
+    font-weight:800;
+}
+
+
+#eight{
+    border:1px solid #bf95cc;
+    border-radius:15px;
+    padding:auto;
+    background:#bf95cc;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#eight:hover{
+    background:white;
+    color:#bf95cc;
+    border:3px solid #bf95cc;
+    font-size:24px;
+    font-weight:800;
+}
+
+#nine{
+    border:1px solid #9c128a;
+    border-radius:15px;
+    padding:auto;
+    background:#9c128a;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#nine:hover{
+    background:white;
+    color:#9c128a;
+    border:3px solid #9c128a;
+    font-size:24px;
+    font-weight:800;
+}
+
+#ten{
+    border:1px solid #ab92ef;
+    border-radius:15px;
+    padding:auto;
+    background:#ab92ef;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#ten:hover{
+    background:white;
+    color:#ab92ef;
+    border:3px solid #ab92ef;
+    font-size:24px;
+    font-weight:800;
+}
+
+#eleven{
+    border:1px solid #777777;
+    border-radius:15px;
+    padding:auto;
+    background:#777777;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#eleven:hover{
+    background:white;
+    color:#777777;
+    border:3px solid #777777;
+    font-size:24px;
+    font-weight:800;
+}
+
+#twelve{
+    border:1px solid #ea8181;
+    border-radius:15px;
+    padding:auto;
+    background:#ea8181;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#twelve:hover{
+    background:white;
+    color:#ea8181;
+    border:3px solid #ea8181;
+    font-size:24px;
+    font-weight:800;
+}
+
+#thirteen{
+    border:1px solid #71822f;
+    border-radius:15px;
+    padding:auto;
+    background:#71822f;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#thirteen:hover{
+    background:white;
+    color:#71822f;
+    border:3px solid #71822f;
+    font-size:24px;
+    font-weight:800;
+}
+
+#fourteen{
+    border:1px solid #a2935b;
+    border-radius:15px;
+    padding:auto;
+    background:#a2935b;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#fourteen:hover{
+    background:white;
+    color:#a2935b;
+    border:3px solid #a2935b;
+    font-size:24px;
+    font-weight:800;
+}
+
+#fifteen{
+    border:1px solid #2f71a3;
+    border-radius:15px;
+    padding:auto;
+    background:#2f71a3;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#fifteen:hover{
+    background:white;
+    color:#2f71a3;
+    border:3px solid #2f71a3;
+    font-size:24px;
+    font-weight:800;
+}
+
+
+#sixteen{
+    border:1px solid #29cb13;
+    border-radius:15px;
+    padding:auto;
+    background:#29cb13;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#sixteen:hover{
+    background:white;
+    color:#29cb13;
+    border:3px solid #29cb13;
+    font-size:24px;
+    font-weight:800;
+}
+#four_ab{
+    border:1px solid #29cb13;
+    border-radius:15px;
+    padding:auto;
+    background:#29cb13;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#four_ab:hover{
+    background:white;
+    color:#29cb13;
+    border:3px solid #29cb13;
+    font-size:24px;
+    font-weight:800;
+}
+
+
+#seventeen{
+    border:1px solid #88451f;
+    border-radius:15px;
+    padding:auto;
+    background:#88451f;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#seventeen:hover{
+    background:white;
+    color:#88451f;
+    border:3px solid #88451f;
+    font-size:24px;
+    font-weight:800;
+}
+#three_ab{
+    border:1px solid #88451f;
+    border-radius:15px;
+    padding:auto;
+    background:#88451f;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#three_ab:hover{
+    background:white;
+    color:#88451f;
+    border:3px solid #88451f;
+    font-size:24px;
+    font-weight:800;
+}
+
+
+#eighteen{
+    border:1px solid #b07a54;
+    border-radius:15px;
+    padding:auto;
+    background:#b07a54;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#eighteen:hover{
+    background:white;
+    color:#b07a54;
+    border:3px solid #b07a54;
+    font-size:24px;
+    font-weight:800;
+}
+#two_ab{
+    border:1px solid #b07a54;
+    border-radius:15px;
+    padding:auto;
+    background:#b07a54;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#two_ab:hover{
+    background:white;
+    color:#b07a54;
+    border:3px solid #b07a54;
+    font-size:24px;
+    font-weight:800;
+}
+
+#ninteen{
+    border:1px solid #8f011e;
+    border-radius:15px;
+    padding:auto;
+    background:#8f011e;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#ninteen:hover{
+    background:white;
+    color:#8f011e;
+    border:3px solid #8f011e;
+    font-size:24px;
+    font-weight:800;
+}
+
+#Twentyone{
+    border:1px solid pink;
+    border-radius:15px;
+    padding:auto;
+    background:pink;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#Twentyone:hover{
+    background:white;
+    color:pink;
+    border:3px solid pink;
+    font-size:24px;
+    font-weight:800;
+}
+
+#one_ab{
+    border:1px solid #ab92ef;
+    border-radius:15px;
+    padding:auto;
+    background:#ab92ef;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#one_ab:hover{
+    background:white;
+    color:#ab92ef;
+    border:3px solid #ab92ef;
+    font-size:24px;
+    font-weight:800;
+}
+
+#twenty{
+    border:1px solid #bf912f;
+    border-radius:15px;
+    padding:auto;
+    background:#bf912f;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#twenty:hover{
+    background:white;
+    color:#bf912f;
+    border:3px solid #bf912f;
+    font-size:24px;
+    font-weight:800;
+}
+
+#twentytwo{
+    border:1px solid #60a7bd;
+    border-radius:15px;
+    padding:auto;
+    background:#60a7bd;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#twentytwo:hover{
+    background:white;
+    color:#60a7bd;
+    border:3px solid #60a7bd;
+    font-size:24px;
+    font-weight:800;
+}
+
+#twentythree{
+    border:1px solid #7f7300;
+    border-radius:15px;
+    padding:auto;
+    background:#7f7300;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#twentythree:hover{
+    background:white;
+    color:#7f7300;
+    border:3px solid #7f7300;
+    font-size:24px;
+    font-weight:800;
+}
+
+#twentyfour{
+    border:1px solid #ccb800;
+    border-radius:15px;
+    padding:auto;
+    background:#ccb800;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#twentyfour:hover{
+    background:white;
+    color:#f16464;
+    border:3px solid #f16464;
+    font-size:24px;
+    font-weight:800;
+}
+
+#twentyfive{
+    border:1px solid #d49cc5;
+    border-radius:15px;
+    padding:auto;
+    background:#d49cc5;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#twentyfive:hover{
+    background:white;
+    color:#d49cc5;
+    border:3px solid #d49cc5;
+    font-size:24px;
+    font-weight:800;
+}
+
+#twentysix{
+    border:1px solid #e17d26;
+    border-radius:15px;
+    padding:auto;
+    background:#e17d26;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#twentysix:hover{
+    background:white;
+    color:#e17d26;
+    border:3px solid #e17d26;
+    font-size:24px;
+    font-weight:800;
+}
+
+#twentyseven{
+    border:1px solid #297f71;
+    border-radius:15px;
+    padding:auto;
+    background:#297f71;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#twentyseven:hover{
+    background:white;
+    color:#297f71;
+    border:3px solid #297f71;
+    font-size:24px;
+    font-weight:800;
+}
+
+#twentyeight{
+    border:1px solid #91e266;
+    border-radius:15px;
+    padding:auto;
+    background:#91e266;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#twentyeight:hover{
+    background:white;
+    color:#91e266;
+    border:3px solid #91e266;
+    font-size:24px;
+    font-weight:800;
+}
+
+#twentynine{
+    border:1px solid #9c8090;
+    border-radius:15px;
+    padding:auto;
+    background:#9c8090;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#twentynine:hover{
+    background:white;
+    color:#9c8090;
+    border:3px solid #9c8090;
+    font-size:24px;
+    font-weight:800;
+}
+
+#therty{
+    border:1px solid #2197bb;
+    border-radius:15px;
+    padding:auto;
+    background:#2197bb;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#therty:hover{
+    background:white;
+    color:#2197bb;
+    border:3px solid #2197bb;
+    font-size:24px;
+    font-weight:800;
+}
+
+#thertyone{
+    border:1px solid #9492c9;
+    border-radius:15px;
+    padding:auto;
+    background:#9492c9;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#thertyone:hover{
+    background:white;
+    color:#9492c9;
+    border:3px solid #9492c9;
+    font-size:24px;
+    font-weight:800;
+}
+
+#thertytwo{
+    border:1px solid #a3ae03;
+    border-radius:15px;
+    padding:auto;
+    background:#a3ae03;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#thertytwo:hover{
+    background:white;
+    color:#a3ae03;
+    border:3px solid #a3ae03;
+    font-size:24px;
+    font-weight:800;
+}
+
+#thertythree{
+    border:1px solid #049bff;
+    border-radius:15px;
+    padding:auto;
+    background:#049bff;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#thertythree:hover{
+    background:white;
+    color:#049bff;
+    border:3px solid #049bff;
+    font-size:24px;
+    font-weight:800;
+}
+
+#thertyfour{
+    border:1px solid #d65b4f;
+    border-radius:15px;
+    padding:auto;
+    background:#d65b4f;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#thertyfour:hover{
+    background:white;
+    color:#d65b4f;
+    border:3px solid #d65b4f;
+    font-size:24px;
+    font-weight:800;
+}
+
+#thertyfive{
+    border:1px solid #079c34;
+    border-radius:15px;
+    padding:auto;
+    background:#079c34;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#thertyfive:hover{
+    background:white;
+    color:#079c34;
+    border:3px solid #079c34;
+    font-size:24px;
+    font-weight:800;
+}
+
+#thertysix{
+    border:1px solid #007343;
+    border-radius:15px;
+    padding:auto;
+    background:#007343;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#thertysix:hover{
+    background:white;
+    color:#007343;
+    border:3px solid #007343;
+    font-size:24px;
+    font-weight:800;
+}
+
+#thertyseven{
+    border:1px solid #b47930;
+    border-radius:15px;
+    padding:auto;
+    background:#b47930;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#thertyseven:hover{
+    background:white;
+    color:#b47930;
+    border:3px solid #b47930;
+    font-size:24px;
+    font-weight:800;
+}
+#one_a{
+    border:1px solid #bf912f;
+    border-radius:15px;
+    padding:auto;
+    background:#bf912f;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#one_a:hover{
+    background:white;
+    color:#bf912f;
+    border:3px solid #bf912f;
+    font-size:24px;
+    font-weight:800;
+}
+
+#approved{
+    border:1px solid lightgreen;
+    border-radius:15px;
+    padding:auto;
+    background:lightgreen;
+    color:black;
+    width:250px;
+    height:120px;
+    text-align:center;
+    font-family:Lucida Console;
+    font-size:20px;
+    font-weight:600;
+}
+#approved:hover{
+    background:white;
+    color:lightgreen;
+    border:3px solid lightgreen;
+    font-size:24px;
+    font-weight:800;
+}
+
+#ps{
+    margin:auto;
+    font-family:Chicago;
+    font-size:20px;
+    font-weight:600;
+    margin-top:-40px;
+}
+#sbu{
+  margin:auto;
+    font-family:Chicago;
+    font-size:20px;
+    font-weight:600;
+    margin-top:-40px;
+}
+#bgcx{
+    margin:auto;
+      font-family:Chicago;
+      font-size:20px;
+      font-weight:600;
+      margin-top:1px;
+}
+#ou{
+    margin:auto;
+      font-family:Chicago;
+      font-size:20px;
+      font-weight:600;
+      margin-top:2px;
+}
+#cs{
+  margin:auto;
+    font-family:Chicago;
+    font-size:20px;
+    font-weight:600;
+    margin-top:40px;
+    border:1px solid black;
+}
+
+#dash{
+    text-align:center;
+    font-family:New York;
+    font-size:45px;
+    font-weight:800;
+    margin-top:80px;
+}
+#log{
+    text-align:right;
+    margin-top:-30px;
+    margin-right:10px;
+}
+#h{
+  margin-top:-50px;
+  margin-left:45%;
+}
+#bg{
+  background:url(bg.gif);
+  background-repeat:repeat;
+  padding-bottom:20px;
+  
+}
+#w{
+  text-align:left;
+   height:100px;
+}
+#c{
+  width:250px;
+  height:100px;
+   margin-left:1px;
+}
+#ay{
+  width:100px;
+  height:40px;
+  background-color:lightblue;
+  border-radius:10px;
+}
+td{
+    padding:5px;
+}
+#top{
+    border:1px solid black;
+    border-collapse:collapse;
+    width:auto;
+    margin-left:20%;
+}
+#b{
+    border:1px solid black;
+    padding-right:30px;
+    padding-left:30px; 
+}
+
+#p{
+    border:1px solid black;
+    padding-right:30px;
+    padding-left:30px; 
+}

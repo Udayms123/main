@@ -38,14 +38,13 @@ if (!isset($_SESSION['user_id'])) {
       width: 100%;
       z-index: 999;
     }
-     .sitename {
+    .sitename {
       display: flex;
       align-items: center;
       gap: 10px;
       color: #FFD700;
       font-size: 1.2rem;
     }
-
     .logo {
       height: 50px;
       width: 200px;
@@ -75,15 +74,15 @@ if (!isset($_SESSION['user_id'])) {
       color: #002147;
       font-weight: 500;
     }
- input[type="text"], input[type="integer"], input[type="password"], input[type="email"] {
+    input[type="password"] {
       width: 100%;
       padding: 12px;
       margin-bottom: 20px;
       border: 2px solid #ccc;
       border-radius: 8px;
       font-size: 16px;
-    }   
-     input[type="submit"] {
+    }
+    input[type="submit"] {
       width: 100%;
       background-color: #ff8c00;
       color: white;
@@ -112,33 +111,42 @@ if (!isset($_SESSION['user_id'])) {
       color: red;
       text-align: center;
       margin: 20px;
+
     }
+
+/* jg */
+    .header-section.center {
+  font-size: 1.6rem;
+  font-weight: 700; /* bold */
+  color: #FFD700;
+  text-align: center;
+}
+
   </style>
 </head>
 <body>
 
 <header class="header fixed-top">
-  <div class="sitename">
+  <div class="header-section left">
     <img src="assets/images/bellogo1.png" alt="BEL Logo" class="logo">
-    Customer Service Portal    
   </div>
-  <nav class="navmenu">
+  <div class="header-section center">
+    Customer Service Portal
+  </div>
+  <div class="header-section right navmenu">
     <ul>
       <li><a href="project_review.php"><b>HOME</b></a></li>
     </ul>
-  </nav>
+  </div>
 </header>
+
 
 <?php
 if ($_SERVER['REQUEST_METHOD'] != 'POST') {
-    // Display the form
     echo '
     <div class="signup-container" id="change-form">
       <h3 style="text-align:center;">Change Password</h3>
       <form method="post" action="">
-        <label>Staff Number</label>
-        <input type="integer" placeholder="Enter staff number" name="staff_number" maxlength="6" required autocomplete="off">
-
         <label>Old Password</label>
         <input type="password" name="userpass_old" placeholder="Enter Old Password" required autocomplete="off">
 
@@ -152,17 +160,12 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
       </form>
     </div>';
 } else {
-    // Form submitted — process it
-    $staff_number = trim($_POST['staff_number']);
+    $user_id = $_SESSION['user_id'];
     $old_password = $_POST['userpass_old'];
     $new_password = $_POST['password'];
     $confirm_password = $_POST['confirm_password'];
 
     $errors = [];
-
-    if (!ctype_alnum($staff_number)) {
-        $errors[] = "Staff number must be alphanumeric.";
-    }
 
     if ($new_password !== $confirm_password) {
         $errors[] = "New passwords do not match.";
@@ -172,14 +175,15 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         $errors[] = "New password should be at least 6 characters.";
     }
 
-    $query = "SELECT password FROM users WHERE staff_number = ?";
+    // Get current password from DB
+    $query = "SELECT password FROM users WHERE id = ?";
     $stmt = mysqli_prepare($conn, $query);
-    mysqli_stmt_bind_param($stmt, 's', $staff_number);
+    mysqli_stmt_bind_param($stmt, 'i', $user_id);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_store_result($stmt);
 
     if (mysqli_stmt_num_rows($stmt) == 0) {
-        $errors[] = "Staff number not found.";
+        $errors[] = "User not found.";
     } else {
         mysqli_stmt_bind_result($stmt, $db_password);
         mysqli_stmt_fetch($stmt);
@@ -197,9 +201,9 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         echo '</div></div>';
     } else {
         $new_hashed = password_hash($new_password, PASSWORD_DEFAULT);
-        $update_sql = "UPDATE users SET password = ? WHERE staff_number = ?";
+        $update_sql = "UPDATE users SET password = ? WHERE id = ?";
         $update_stmt = mysqli_prepare($conn, $update_sql);
-        mysqli_stmt_bind_param($update_stmt, 'ss', $new_hashed, $staff_number);
+        mysqli_stmt_bind_param($update_stmt, 'si', $new_hashed, $user_id);
         $result = mysqli_stmt_execute($update_stmt);
 
         if ($result) {

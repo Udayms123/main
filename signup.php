@@ -244,7 +244,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <?php if (!empty($success)) : ?>
   <div class="success-box">
     <strong><?php echo $success; ?></strong><br><br>
-    <a href="index.php">Click here to login</a><br>
+    
     <a href="getallusers.php">Return to Home</a>
   </div>
 <?php endif; ?>

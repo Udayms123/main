@@ -3,7 +3,7 @@
   $server = 'localhost';
   $username = 'root';
   $password = '';
-  $database = 'service_portal';
+  $database = 'service_portal2';
   $conn = mysqli_connect($server, $username, $password, $database);
   // Check connection 
   if (!$conn) {
@@ -15,15 +15,4 @@
   }
   ?>
 
-<!-- 
-Microsoft Windows [Version 10.0.22631.5549]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\xampp\mysql\bin>mysqldump -u root -p service_portal > service_portal.sql
-Enter password:
-
-C:\xampp\mysql\bin>mysql -u root -p service_portal2 < service_portal.sql
-Enter password:
-
-C:\xampp\mysql\bin>^A -->
 

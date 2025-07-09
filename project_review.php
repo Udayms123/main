@@ -176,14 +176,28 @@ while ($row = $result->fetch_assoc()) {
       display: block;
       margin: 0 auto;
     }
+
+    .header-section.center {
+  font-size: 1.6rem;
+  font-weight: 700; /* bold */
+  color: #FFD700;
+  text-align: center;
+}
+
+
   </style>
 </head>
+
+
+
 
 <body>
 <header class="header fixed-top">
   <div class="sitename">
     <img src="assets/images/bellogo1.png" alt="BEL Logo" class="logo">
-    Customer Service Portal    
+    <div class="header-section center">
+    Customer Service Portal
+  </div>  
   </div>
   <nav class="navmenu">
     <ul>

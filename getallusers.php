@@ -215,17 +215,30 @@ function confirmDelete(id) {
   modal.show();
 }
 
+// function confirmReset(id) {
+//   if (confirm("Are you sure you want to reset this user's password to 'Bel@1234'?")) {
+//     $.post('reset_password.php', { id: id }, function(response) {
+//       if (response.trim() === "success") {
+//         alert("Password reset to 'Bel@1234'");
+//       } else {
+//         alert("Reset failed");
+//       }
+//     });
+//   }
+// }
 function confirmReset(id) {
   if (confirm("Are you sure you want to reset this user's password to 'Bel@1234'?")) {
     $.post('reset_password.php', { id: id }, function(response) {
+      console.log("Response:", response); // helpful for debugging
       if (response.trim() === "success") {
         alert("Password reset to 'Bel@1234'");
       } else {
-        alert("Reset failed");
+        alert("Reset failed: " + response);
       }
     });
   }
 }
+
 
 $(document).ready(function () {
   $('#myTable').DataTable({
